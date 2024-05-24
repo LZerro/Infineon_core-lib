@@ -7,3 +7,4 @@ cwd = GetCurrentDir()
 path = [cwd + '/include']
 
 group = DefineGroup('Libraries', src, depend=[''], CPPPATH=path)
+Return('group')
